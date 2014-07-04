@@ -1,4 +1,4 @@
-package com.codegirl.projectstarter.database;
+package com.profcodegirl.projectstarter.database;
 
 /*Instead of copy and paste the source of the vogella tutorial,
 I have let Eclipse generate most of this class for me by

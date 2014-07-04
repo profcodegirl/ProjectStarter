@@ -1,4 +1,4 @@
-package com.codegirl.projectstarter;
+package com.profcodegirl.projectstarter;
 
 import android.app.Activity;
 import android.app.ActionBar;

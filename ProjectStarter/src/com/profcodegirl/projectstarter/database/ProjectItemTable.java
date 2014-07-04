@@ -1,7 +1,7 @@
 
 
 
-package com.codegirl.projectstarter.database;
+package com.profcodegirl.projectstarter.database;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;

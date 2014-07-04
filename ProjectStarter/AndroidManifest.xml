@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codegirl.projectstarter"
+    package="com.profcodegirl.projectstarter"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.codegirl.projectstarter.MainProjectItemList"
+            android:name="com.profcodegirl.projectstarter.MainProjectItemList"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,9 +23,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.codegirl.projectstarter.ProjectItemDetail"
+            android:name="com.profcodegirl.projectstarter.ProjectItemDetail"
             android:label="@string/title_activity_project_item_detail" >
         </activity>
+
+        <provider
+            android:name=".contentprovider.ProjectItemContentProvider"
+            android:authorities="com.profcodegirl.projectstarter.contentprovider" >
+        </provider>
     </application>
 
 </manifest>
